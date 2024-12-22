@@ -1,3 +1,5 @@
+// Maximal Square 221
+
 #include <vector>
 #include <iostream>
 #include <algorithm>
@@ -41,8 +43,8 @@ int main() {
 
     vector<vector<char>> matrix = {
         {'0', '1', '1', '0'},
-        {'1', '1', '1', '1'},
-        {'0', '1', '1', '1'},
+        {'1', '0', '1', '1'},
+        {'0', '1', '1', '0'},
         {'0', '0', '0', '0'}
     };
 

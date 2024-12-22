@@ -27,8 +27,7 @@ void qsortRecursive(int *arr, int size) {
 
         // если указатели i и j не пересеклись, меняем элементы местами
         if (i <= j) {
-            swap(arr[i], arr[j]); // Используем std::swap для удобства
-            i++; 
+            swap(arr[i], arr[j]); 
             j--;
         }
     // продолжаем, пока указатели не пересекутся    
@@ -76,7 +75,7 @@ bool result_best_case = equal(begin(best_case), end(best_case), begin(expected_b
 assertTest(result_best_case);
 
 // средний случай
-// O(n*log n)
+// O(n*log(n))
 int averege_case[] = {1, 4, 2, 8, 6, 12};
 int expected_averege_case[] = {1, 2, 4, 6, 8, 12};
 int size_averege_case = sizeof(averege_case) / sizeof(averege_case[0]);
