@@ -37,7 +37,7 @@ public:
 
 int main() {
     Solution solution;
-    vector<int> ratings = {0, 7, 7, 3, 5, 2, 1}; 
+    vector<int> ratings = {1, 0, 2}; 
     int result = solution.candy(ratings);
     cout << "Minimum candies needed: " << result << endl;
     return 0;
